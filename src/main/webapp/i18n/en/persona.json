@@ -1,0 +1,27 @@
+
+{
+    "lab5App": {
+        "persona" : {
+            "home": {
+                "title": "Personas",
+                "createLabel": "Create a new Persona",
+                "createOrEditLabel": "Create or edit a Persona"
+            },
+            "created": "A new Persona is created with identifier {{ param }}",
+            "updated": "A Persona is updated with identifier {{ param }}",
+            "deleted": "A Persona is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Persona {{ id }}?"
+            },
+            "detail": {
+                "title": "Persona"
+            },
+            "nombre": "nombre",
+            "email": "email",
+            "direccion": "direccion",
+            "salario": "salario",
+            "help": {
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <concat destfile="C:\Users\Lenovo\Documents\NetBeansProjects\lab5\target\classes/META-INF/microprofile-config.properties" fixlastline="yes">
+    <fileset file="C:\Users\Lenovo\Documents\NetBeansProjects\lab5\target/config/application-common.properties"/>
+    <fileset file="C:\Users\Lenovo\Documents\NetBeansProjects\lab5\target/config/application-dev.properties"/>
+  </concat>
+</target>
+</project>
